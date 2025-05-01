@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme{
+
+    /* ==============its for login page============== */
+
+   
+
+    --color-theme:#FFFFFF;
+    --color-white:#F0EDFF;
+     --color-button1:#9181F4;
+     --color-button2:#5038ED;
+
+
+
+    --font-weight-extrabold:600;
+
+
+     --text-semi-big:1.8rem;
+     --text-extra-big:2rem;
+      --text-normal:1rem;
+    /* =========its for dashbord -----------*/
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .button{
+    @apply  w-fit self-center bg-gradient-to-r from-button1 to-button2 text-theme outline-none cursor-pointer
+  }
+

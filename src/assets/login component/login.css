@@ -1,0 +1,68 @@
+
+.slide2{
+    background-image: url('/public/images/login page img/Rectangle 4.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+@import "tailwindcss";
+
+@theme{
+
+    /* ==============its for login page============== */
+
+   
+
+    --color-theme:#FFFFFF;
+    --color-white:#F0EDFF;
+     --color-button1:#9181F4;
+     --color-button2:#5038ED;
+
+
+
+    --font-weight-extrabold:600;
+
+
+     --text-semi-big:1.8rem;
+     --text-extra-big:2rem;
+      --text-normal:1rem;
+    /* =========its for dashbord -----------*/
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+  
+
+
+
+  /* === login css here================== */
+
+
+  /* ============global css end here============= */
+  
+
+
+.login{
+    @apply bg-gray-700 w-full min-h-[100vh] flex justify-center items-center overflow-clip
+}
+
+.slide{
+    @apply  w-full bg-theme min-h-[500px] flex justify-center items-center 
+}
+
+
+.input input{
+    @apply bg-white text-normal py-3.5 px-3 rounded-[15px] outline-none border-[1px]
+}
+
+.option{
+    @apply flex  bg-white border-[1px] border-gray-500 rounded-[1rem] py-3 px-5 cursor-pointer my-1
+}
+.option img{
+    @apply w-[1.3rem] h-[1.3rem] mx-1
+}
+

@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme{
+
+    /*---color for bg------------ */
+    --color-body-white:#ecf2fe;
+    --color-connet-body-white:#ffffff;
+    --color-blue-theme:#3e80f9
+    --color-notification:#ea5455;
+
+    /* ---font--- */
+    --color-font-white:#ffffff;
+    --color-font-gray:#8492ab;
+    --color-font-htag:#0f141f;
+
+    
+
+
+    /* ----color for column chart----- */
+
+    --color-coloumn-chart1:#27cea7;
+    --color-coloumn-chart2:#d9ffff;
+
+
+    /* -----color for pie chart----- */
+
+    --color-organization:#2bcfa9;
+    --color-mentoring:#3e80f9;
+    --color-planing:#ffa753;
+}
+
+.sidebar{
+    @apply bg-blue-theme
+}

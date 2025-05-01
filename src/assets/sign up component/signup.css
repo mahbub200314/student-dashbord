@@ -1,0 +1,16 @@
+
+@import "tailwindcss";
+
+@theme{
+    --color-background:#ffffff;
+    --color-heading:#404040;
+    --color-input:#909090;
+    --color-button:#0e64d1
+}
+
+form input{
+    @apply my-2 outline-1 py-3 px-2 rounded-[10px] outline-input text-input w-full 
+}
+.signup2ndOption button{
+    @apply  flex items-center justify-center border-2 border-input rounded-[10px] w-fit self-center gap-2 p-2 cursor-pointer
+}

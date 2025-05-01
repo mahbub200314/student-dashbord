@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme{
+
+    /*---color for bg------------ */
+    --color-bg-body-white:#ecf2fe;
+    --color-bg-connet-body-white:#ffffff;
+    --color-bg-blue-theme:#3e80f9;
+    --color-bg-notification:#ea5455;
+
+    /* ---font--- */
+    --color-font-white:#ffffff;
+    --color-text-gray:#8492ab;
+    --color-font-htag:#0f141f;
+
+    --font-weight-extrablack: 1000;
+    --font-weight-thin: 50;
+
+
+    /* ----color for column chart----- */
+
+    --color-coloumn-chart1:#27cea7;
+    --color-coloumn-chart2:#d9ffff;
+
+
+    /* -----color for pie chart----- */
+
+    --color-organization:#2bcfa9;
+    --color-mentoring:#3e80f9;
+    --color-planing:#ffa753;
+
+
+
+    /* break poitn for responsive...... */
+
+    --breakpoint-xs: 35rem;
+}
+
+
+/* sidebar css here........... */
+li a{
+    @apply flex w-full justify-around items-center px-[4vw] text-[1.2rem] text-text-gray  shadow-2xs hover:bg-bg-connet-body-white   transition duration-200  hover:shadow-[0px] py-5 cursor-pointer
+   
+}
+
+li a i{
+    @apply text-2xl 
+}
+.sidebar ul li.active a{
+    @apply bg-bg-blue-theme text-font-htag
+}
+
+/*  dashbordIndex event css here */
+
+
+.event{
+    @apply flex justify-between items-center rounded-[10px]  bg-bg-body-white shadow-md  p-4
+}
+
+.event .right-side{
+    @apply  flex items-center gap-5
+}
+
+.right-side i{
+    @apply text-2xl px-4 py-3 rounded-2xl shadow-md bg-white
+}
+
+.right-side span{
+    @apply flex flex-col gap-0.5
+}
+.right-side span b{
+    @apply text-[1.1rem] font-extralight
+}
+.right-side span p{
+    @apply  text-[1.1rem] text-text-gray 
+}
+
+.left-side {
+    @apply text-2xl grid place-content-center cursor-pointer
+}
