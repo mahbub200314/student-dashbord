@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Signup.css'
+import './signup.css'
 
 import { getAuth, createUserWithEmailAndPassword, updateProfile ,FacebookAuthProvider, GoogleAuthProvider,signInWithPopup} from "firebase/auth";
 import { Link, useNavigate } from 'react-router';
