@@ -116,12 +116,14 @@ signInWithPopup(auth , FB_Provider)
             {/*...sign up second option here..............  */}
             <div className="signup2ndOption flex flex-col gap-3.5 py-4 text-center ">
                <button onClick={loginWithGoogle}>
-                <img src="/public/images/logingit pageimg/google1.png" alt="" />
+               <img src="/images/loginpageimg/google1.png" alt="Google" />
+
+
                 Sign up with <b>Google</b>
                </button>
 
                <button onClick={loginWithFB}>
-                <img src="/public/images/loginpageimg/facebook1.png" alt="" />
+                <img src="/images/loginpageimg/facebook1.png" alt="Facebook" />
                 Sign up with <b>Facebook</b>
                </button>
                <u>Already have an account? <Link to="/login"><span className='text-blue-500 cursor-pointer'>Login</span></Link></u>
