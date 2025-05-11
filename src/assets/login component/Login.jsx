@@ -81,12 +81,12 @@ const provider = new GoogleAuthProvider();
               <b>Login </b> with others
             </p> 
             <div className="option" onClick={loginWithGoogle}>
-              <img src="/public/images/login page img/google 1.png" alt="" />
+                <img src="./images/loginpageimg/google1.png" alt="Google" />
               Login with  <b> google</b>
             </div>
 
             <div className="option" onClick={loginWithFb}>
-              <img src="/public/images/login page img/facebook 1.png" alt="" />
+                <img src="./images/loginpageimg/facebook1.png" alt="Facebook" />
               Login with<b> Facebook</b>
             </div>
             
