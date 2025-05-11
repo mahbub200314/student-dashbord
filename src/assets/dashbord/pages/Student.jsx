@@ -78,7 +78,7 @@ const Student = () => {
       }}
       />
 
-      <table className='table-auto  border-collapse border-2  w-[90%] text-center overflow-hidden rounded-2xl shadow-2xl '>
+      <table className='table-auto   w-[90%] text-center overflow-hidden rounded-2xl shadow-2xl '>
 
         <thead>
           <tr className='bg-gray-300'>
