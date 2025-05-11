@@ -78,3 +78,30 @@ li a i{
 .left-side {
     @apply text-2xl grid place-content-center cursor-pointer
 }
+
+
+.pricing-plan p{
+    @apply text-text-gray font-extralight text-[2xl]
+}
+.pricing-plan .card{
+    @apply shadow-[0_0px_5px_rgba(0,0,0,0.25)]
+}
+.check{
+    @apply text-bg-blue-theme border-1 text-[10px]  rounded-full p-[4px] mr-2
+}
+
+.pricing-plan  button{
+ @apply  py-3 px-8 rounded-[30px] font-bold bg-bg-blue-theme text-[1.2rem] text-bg-connet-body-white w-full mt-5 hover:bg-transparent hover:border-bg-blue-theme hover:text-bg-blue-theme hover:border-1 duration-700 cursor-pointer 
+}
+
+.pricing-plan b{
+    @apply text-2xl 
+}
+
+.user-info li{
+    @apply  flex items-center gap-2 p-[10px] rounded-[10px] hover:bg-bg-connet-body-white duration-200 cursor-pointer 
+}
+
+.user-info .icon{
+    @apply text-[1.4rem] 
+} 

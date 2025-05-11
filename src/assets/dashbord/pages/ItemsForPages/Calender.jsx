@@ -60,11 +60,11 @@ function Calender() {
   };
 
   return (
-    <div className=" mx-auto p-4 rounded-2xl shadow-[0px_0px_5px_rgba(0,0,0,0.0.6)]  bg-bg-body-white   w-full ">
+    <div className="shadow-[0px_0px_5px_rgba(0,0,0,0.2)] mx-auto p-4 rounded-2xl shadow-[0px_0px_5px_rgba(0,0,0,0.0.6)]  bg-bg-body-white   w-full ">
       <div className="flex justify-center gap-5 items-center mb-4">
-        <button onClick={prevMonth} className="  cursor-pointer"><i class="fa-solid fa-angle-left text-2xl "></i></button>
-        <h2 className="text-xl font-semibold">{monthYearString}</h2>
-        <button onClick={nextMonth} className="text-lg font-bold cursor-pointer "><i class="fa-solid fa-angle-right text-2xl "></i></button>
+        <button onClick={prevMonth} className="bg-bg-blue-theme rounded-full py-2 px-3.5 cursor-pointer"><i class="fa-solid fa-angle-left "></i></button>
+        <h2 className="text-xl text-text-gray font-semibold  px-3 py-1 bg-bg-connet-body-white rounded-[5px]">{monthYearString}</h2>
+        <button onClick={nextMonth} className="bg-bg-blue-theme rounded-full py-2 px-3.5 cursor-pointer"><i class="fa-solid fa-angle-right "></i></button>
       </div>
 
       <div className="grid grid-cols-7 gap-2 text-center font-semibold text-gray-600 mb-2">
@@ -73,7 +73,7 @@ function Calender() {
         ))}
       </div>
 
-      <div className="grid grid-cols-7 gap-2">{generateCalendar()}</div>
+      <div className="grid grid-cols-7">{generateCalendar()}</div>
     </div>
   );
 }

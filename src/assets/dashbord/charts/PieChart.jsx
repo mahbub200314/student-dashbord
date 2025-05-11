@@ -1,5 +1,5 @@
-import React from 'react'
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer,Tooltip, Legend, LabelList } from 'recharts';
+
+import { PieChart, Pie, Cell, ResponsiveContainer,Tooltip, Legend,  } from 'recharts';
 import '../pages/pages.css'
 const PieCharts = () => {
 
@@ -13,8 +13,8 @@ const PieCharts = () => {
 
 
   return (
-    <div>
-    <div className='bg-bg-body-white mx-auto p-4 rounded-[15px] shadow-md'>
+    <div className=''>
+    <div className='bg-bg-body-white mx-auto p-4 rounded-[15px] shadow-md '>
         <b className='flex justify-center py-2 text-2xl text-font-gray'>Most Activity</b>
     <ResponsiveContainer width='100%' height={300}>
          <PieChart>
